@@ -9,18 +9,24 @@ export const GlobalStyle = createGlobalStyle`
 
     .btn-primery{
         background: ${({ theme }) => theme.primery};
-        color: ${({ theme }) => theme.bg}
+        color: ${({ theme }) => theme.bg};
+        border:none;
+      outline: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: 500;
     }
 `;
 
 export const darkTheme = {
   bg: "#121212",
   text: "#fff",
-  primery: "red",
+  primery: "white",
 };
 
 export const lightTheme = {
   bg: "#fff",
   text: "121212",
-  primery: "green",
+  primery: "black",
 };

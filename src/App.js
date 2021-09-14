@@ -1,6 +1,6 @@
 import React from "react";
 import Content from "./components/Content";
-import Toggle from "./components/Toggle";
+import { Toggle } from "./components/Toggle";
 import styled, { ThemeProvider } from "styled-components";
 import { useTheme } from "./components/styles/useTheme";
 import {
